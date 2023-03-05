@@ -22,7 +22,7 @@ public class WSJOpinion extends base {
 		// TODO Auto-generated method stub
 		DOMConfigurator.configure("log4j.xml");
 		initialization();
-
+		try {
 		driver.get(prop.getProperty("WSJ_OPINION"));
 
 		driver.manage().window().maximize();
@@ -31,24 +31,41 @@ public class WSJOpinion extends base {
 
 		String opinionHeader = driver.findElement(By.xpath("//main[@id='main']/div[1]/div[1]/div[1]/div[2]/div/h2/a"))
 				.getAttribute("href");
-		System.out.println(opinionHeader);
-		//Log.info("Opinion Article Header Link: " + opinionHeader);
-		Log.info(opinionHeader);
+		//System.out.println(opinionHeader);
+		Log.info("Test Executed By: "+machineName );
+		Log.info("Test Executed Date: " + currentDateTime);
+		Log.info("Opinion Article Header Link: " + opinionHeader);
+		//Log.info(opinionHeader);
 
 		List<WebElement> OpinionArticleLinks = driver
 				.findElements(By.xpath("//div[starts-with(@class,'WSJTheme--list-item')]/div[2]/div[1]/h3/a"));
 
 		int OpinionLinks = OpinionArticleLinks.size();
 		System.out.println("Count of Articles Links is: " + OpinionLinks);
-		//Log.info("Total OPINION articles link Count: "+OpinionLinks);
+		Log.info("Total OPINION articles link Count: "+OpinionLinks+" + 1");
 		// Enhanced for loop
 		for (WebElement option : OpinionArticleLinks) {
 			String OpinionWSJLinks = option.getAttribute("href");
-			System.out.println("Href value of link: " + OpinionWSJLinks);
-			//Log.info("Opinion Article Links: " + OpinionWSJLinks);
-			Log.info(OpinionWSJLinks);
+			//System.out.println("Href value of link: " + OpinionWSJLinks);
+			Log.info("Opinion Article Links: " + OpinionWSJLinks);
+			//Log.info(OpinionWSJLinks);
 
 		}
+		}
+		catch(Exception e4) {
+			Log.error("No Opinion Related News present for this present date");
+		}
+		try {
+			List<WebElement> Opinion = driver
+					.findElements(By.xpath("//div[starts-with(@class,'WSJTheme--list-item')]/div[2]/div[1]/h3/a"));
+			int WSOAL = Opinion.size();
+			Log.info("Downloaded Successfully " + WSOAL +" + 1 - OPINION NEWS URL's");
+			Log.info(" ");
+			}
+			catch(Exception e22) {
+				
+			}
+		
 		driver.quit();
 	}
 

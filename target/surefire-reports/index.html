@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
-                    <span>C:\Users\cchitneedi\eclipse-workspace\Articles\testng.xml</span>
+                    <span>C:\Users\cchitneedi\git\WSJ-Articles\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -140,6 +140,21 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">WallStreetJournal.Articles.wallStreet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wsa">
+                  </a> <!-- wsa -->
+                  <span class="method-name">wsa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">WallStreetJournal.Articles.WSJBusinessFinance</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -170,36 +185,6 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">WallStreetJournal.Articles.WSJOpinion</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="oa">
-                  </a> <!-- oa -->
-                  <span class="method-name">oa</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">WallStreetJournal.Articles.wallStreet</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="wsa">
-                  </a> <!-- wsa -->
-                  <span class="method-name">wsa</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1-class-passed -->
-          <div class="suite-Suite1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">WallStreetJournal.Articles.WSJLifeArts</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -212,10 +197,25 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">WallStreetJournal.Articles.WSJOpinion</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oa">
+                  </a> <!-- oa -->
+                  <span class="method-name">oa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\cchitneedi\eclipse-workspace\Articles\testng.xml</span>
+            <span class="header-content">C:\Users\cchitneedi\git\WSJ-Articles\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -224,11 +224,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;WallStreetJournal.Articles.WSJBusinessFinance&quot;/&gt;
       &lt;class name=&quot;WallStreetJournal.Articles.wallStreet&quot;/&gt;
       &lt;class name=&quot;WallStreetJournal.Articles.WSJLifeArts&quot;/&gt;
       &lt;class name=&quot;WallStreetJournal.Articles.WSJOpinion&quot;/&gt;
       &lt;class name=&quot;WallStreetJournal.Articles.WSWorldNews&quot;/&gt;
+      &lt;class name=&quot;WallStreetJournal.Articles.WSJBusinessFinance&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
@@ -270,25 +270,25 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'bfa')
-data.setCell(0, 2, 'WallStreetJournal.Articles.WSJBusinessFinance')
-data.setCell(0, 3, 28110);
+data.setCell(0, 1, 'wsa')
+data.setCell(0, 2, 'WallStreetJournal.Articles.wallStreet')
+data.setCell(0, 3, 17523);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'wsa')
-data.setCell(1, 2, 'WallStreetJournal.Articles.wallStreet')
-data.setCell(1, 3, 27429);
+data.setCell(1, 1, 'bfa')
+data.setCell(1, 2, 'WallStreetJournal.Articles.WSJBusinessFinance')
+data.setCell(1, 3, 16397);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'laa')
-data.setCell(2, 2, 'WallStreetJournal.Articles.WSJLifeArts')
-data.setCell(2, 3, 22389);
+data.setCell(2, 1, 'wna')
+data.setCell(2, 2, 'WallStreetJournal.Articles.WSWorldNews')
+data.setCell(2, 3, 15549);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'wna')
-data.setCell(3, 2, 'WallStreetJournal.Articles.WSWorldNews')
-data.setCell(3, 3, 19778);
+data.setCell(3, 1, 'oa')
+data.setCell(3, 2, 'WallStreetJournal.Articles.WSJOpinion')
+data.setCell(3, 3, 15249);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'oa')
-data.setCell(4, 2, 'WallStreetJournal.Articles.WSJOpinion')
-data.setCell(4, 3, 18336);
+data.setCell(4, 1, 'laa')
+data.setCell(4, 2, 'WallStreetJournal.Articles.WSJLifeArts')
+data.setCell(4, 3, 14381);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
@@ -319,38 +319,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">WallStreetJournal.Articles.WSJBusinessFinance</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">bfa</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">WallStreetJournal.Articles.wallStreet</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">wsa</span>
-                <span class="method-start">28113 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">WallStreetJournal.Articles.WSJLifeArts</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">laa</span>
-                <span class="method-start">55543 ms</span>
+                <span class="method-start">17524 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">WallStreetJournal.Articles.WSJOpinion</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">oa</span>
-                <span class="method-start">77932 ms</span>
+                <span class="method-start">31905 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">WallStreetJournal.Articles.WSWorldNews</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">wna</span>
-                <span class="method-start">96268 ms</span>
+                <span class="method-start">47155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">WallStreetJournal.Articles.WSJBusinessFinance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bfa</span>
+                <span class="method-start">62704 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

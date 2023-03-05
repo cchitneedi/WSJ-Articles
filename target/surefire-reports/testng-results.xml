@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="116059" started-at="2023-01-30T04:27:56Z" finished-at="2023-01-30T04:29:52Z">
+  <suite name="Suite1" duration-ms="79108" started-at="2023-03-05T14:34:39Z" finished-at="2023-03-05T14:35:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="116059" started-at="2023-01-30T04:27:56Z" finished-at="2023-01-30T04:29:52Z">
+    <test name="Test" duration-ms="79108" started-at="2023-03-05T14:34:39Z" finished-at="2023-03-05T14:35:58Z">
       <class name="WallStreetJournal.Articles.WSJBusinessFinance">
-        <test-method status="PASS" signature="bfa()[pri:0, instance:WallStreetJournal.Articles.WSJBusinessFinance@c038203]" name="bfa" duration-ms="28110" started-at="2023-01-30T09:57:56Z" finished-at="2023-01-30T09:58:24Z">
+        <test-method status="PASS" signature="bfa()[pri:0, instance:WallStreetJournal.Articles.WSJBusinessFinance@4b9e13df]" name="bfa" duration-ms="16397" started-at="2023-03-05T20:05:42Z" finished-at="2023-03-05T20:05:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bfa -->
       </class> <!-- WallStreetJournal.Articles.WSJBusinessFinance -->
       <class name="WallStreetJournal.Articles.WSWorldNews">
-        <test-method status="PASS" signature="wna()[pri:0, instance:WallStreetJournal.Articles.WSWorldNews@4b9e13df]" name="wna" duration-ms="19778" started-at="2023-01-30T09:59:33Z" finished-at="2023-01-30T09:59:52Z">
+        <test-method status="PASS" signature="wna()[pri:0, instance:WallStreetJournal.Articles.WSWorldNews@cb5822]" name="wna" duration-ms="15549" started-at="2023-03-05T20:05:26Z" finished-at="2023-03-05T20:05:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wna -->
       </class> <!-- WallStreetJournal.Articles.WSWorldNews -->
       <class name="WallStreetJournal.Articles.wallStreet">
-        <test-method status="PASS" signature="wsa()[pri:0, instance:WallStreetJournal.Articles.wallStreet@8bd1b6a]" name="wsa" duration-ms="27429" started-at="2023-01-30T09:58:24Z" finished-at="2023-01-30T09:58:52Z">
+        <test-method status="PASS" signature="wsa()[pri:0, instance:WallStreetJournal.Articles.wallStreet@c038203]" name="wsa" duration-ms="17523" started-at="2023-03-05T20:04:39Z" finished-at="2023-03-05T20:04:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wsa -->
       </class> <!-- WallStreetJournal.Articles.wallStreet -->
       <class name="WallStreetJournal.Articles.WSJLifeArts">
-        <test-method status="PASS" signature="laa()[pri:0, instance:WallStreetJournal.Articles.WSJLifeArts@18be83e4]" name="laa" duration-ms="22389" started-at="2023-01-30T09:58:52Z" finished-at="2023-01-30T09:59:14Z">
+        <test-method status="PASS" signature="laa()[pri:0, instance:WallStreetJournal.Articles.WSJLifeArts@8bd1b6a]" name="laa" duration-ms="14381" started-at="2023-03-05T20:04:57Z" finished-at="2023-03-05T20:05:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- laa -->
       </class> <!-- WallStreetJournal.Articles.WSJLifeArts -->
       <class name="WallStreetJournal.Articles.WSJOpinion">
-        <test-method status="PASS" signature="oa()[pri:0, instance:WallStreetJournal.Articles.WSJOpinion@cb5822]" name="oa" duration-ms="18336" started-at="2023-01-30T09:59:14Z" finished-at="2023-01-30T09:59:33Z">
+        <test-method status="PASS" signature="oa()[pri:0, instance:WallStreetJournal.Articles.WSJOpinion@18be83e4]" name="oa" duration-ms="15249" started-at="2023-03-05T20:05:11Z" finished-at="2023-03-05T20:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oa -->
