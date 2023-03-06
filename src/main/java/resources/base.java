@@ -9,6 +9,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -30,9 +31,11 @@ public class base {
 		FileInputStream fis = new FileInputStream("src\\main\\java\\library\\config");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
-		if (browserName.equals("chrome")) {
+		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					"src\\main\\java\\library\\chromedriver.exe");
+//			ChromeOptions options = new ChromeOptions();
+//			options.addArguments("--headless");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("IE")) {
 			System.setProperty("webdriver.edge.driver",

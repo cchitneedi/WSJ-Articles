@@ -33,8 +33,6 @@ public class WSJLifeArts extends base {
 			String ArtsLink = driver.findElement(By.xpath("//main[@id='main']/div[1]/div[1]/div[1]/div[2]/div/h2/a"))
 					.getAttribute("href");
 			//System.out.println(ArtsLink);
-			//Log.info("Test Executed By: "+machineName );
-			//Log.info("Test Executed Date: " + currentDateTime);
 			Log.info("Life & Arts Header Link: " + ArtsLink);
 			//Log.info(ArtsLink);
 

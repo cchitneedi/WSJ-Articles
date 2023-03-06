@@ -1,6 +1,6 @@
-browser=IE
+browser=CHROME
 WSJ_USNEWS=https://www.wsj.com/print-edition/20230120/us
 WSJ_WORLDNEWS=https://www.wsj.com/print-edition/20230120/world
-WSJ_LIFEARTS=https://www.wsj.com/print-edition/20230120/lifearts
+WSJ_LIFEARTS=https://www.wsj.com/print-edition/20230121/lifearts
 WSJ_OPINION=https://www.wsj.com/print-edition/20230120/opinion
 WSJ_BUSINESSFINANCE=https://www.wsj.com/print-edition/20230120/business

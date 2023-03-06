@@ -32,8 +32,6 @@ public class WSJOpinion extends base {
 		String opinionHeader = driver.findElement(By.xpath("//main[@id='main']/div[1]/div[1]/div[1]/div[2]/div/h2/a"))
 				.getAttribute("href");
 		//System.out.println(opinionHeader);
-		Log.info("Test Executed By: "+machineName );
-		Log.info("Test Executed Date: " + currentDateTime);
 		Log.info("Opinion Article Header Link: " + opinionHeader);
 		//Log.info(opinionHeader);
 

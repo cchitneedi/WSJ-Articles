@@ -34,14 +34,11 @@ public class WSWorldNews extends base {
 					.findElement(By.xpath("//main[@id='main']/div[1]/div[1]/div[1]/div[2]/div/h2/a"))
 					.getAttribute("href");
 			//System.out.println(WorldHeaderLink);
-			//Log.info("Test Executed By: "+machineName );
-			//Log.info("Test Executed Date: " + currentDateTime);
 			Log.info("World News Header Link: " + WorldHeaderLink);
 			//Log.info(WorldHeaderLink);
 
 			List<WebElement> WorldNewsArticles = driver
 					.findElements(By.xpath("//div[starts-with(@class,'WSJTheme--list-item')]/div[2]/div[1]/h3/a"));
-
 			int CountWorldNews = WorldNewsArticles.size();
 			System.out.println("Count of Articles Links is: " + CountWorldNews);
 			Log.info("Total WORLD NEWS articles link Count: "+CountWorldNews+" + 1");

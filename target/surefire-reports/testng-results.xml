@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="79108" started-at="2023-03-05T14:34:39Z" finished-at="2023-03-05T14:35:58Z">
+  <suite name="Suite1" duration-ms="116478" started-at="2023-03-06T17:31:46Z" finished-at="2023-03-06T17:33:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="79108" started-at="2023-03-05T14:34:39Z" finished-at="2023-03-05T14:35:58Z">
+    <test name="Test" duration-ms="116478" started-at="2023-03-06T17:31:46Z" finished-at="2023-03-06T17:33:43Z">
       <class name="WallStreetJournal.Articles.WSJBusinessFinance">
-        <test-method status="PASS" signature="bfa()[pri:0, instance:WallStreetJournal.Articles.WSJBusinessFinance@4b9e13df]" name="bfa" duration-ms="16397" started-at="2023-03-05T20:05:42Z" finished-at="2023-03-05T20:05:58Z">
+        <test-method status="PASS" signature="bfa()[pri:0, instance:WallStreetJournal.Articles.WSJBusinessFinance@475530b9]" name="bfa" duration-ms="17854" started-at="2023-03-06T23:03:25Z" finished-at="2023-03-06T23:03:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bfa -->
       </class> <!-- WallStreetJournal.Articles.WSJBusinessFinance -->
+      <class name="WallStreetJournal.Articles.descriptionInfo">
+        <test-method status="PASS" signature="configDetails()[pri:0, instance:WallStreetJournal.Articles.descriptionInfo@cc285f4]" name="configDetails" duration-ms="15170" started-at="2023-03-06T23:01:46Z" finished-at="2023-03-06T23:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configDetails -->
+        <test-method status="PASS" signature="meth()[pri:0, instance:WallStreetJournal.Articles.descriptionInfo@cc285f4]" name="meth" duration-ms="14745" started-at="2023-03-06T23:02:02Z" finished-at="2023-03-06T23:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+      </class> <!-- WallStreetJournal.Articles.descriptionInfo -->
       <class name="WallStreetJournal.Articles.WSWorldNews">
-        <test-method status="PASS" signature="wna()[pri:0, instance:WallStreetJournal.Articles.WSWorldNews@cb5822]" name="wna" duration-ms="15549" started-at="2023-03-05T20:05:26Z" finished-at="2023-03-05T20:05:42Z">
+        <test-method status="PASS" signature="wna()[pri:0, instance:WallStreetJournal.Articles.WSWorldNews@cb5822]" name="wna" duration-ms="16885" started-at="2023-03-06T23:02:34Z" finished-at="2023-03-06T23:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wna -->
       </class> <!-- WallStreetJournal.Articles.WSWorldNews -->
       <class name="WallStreetJournal.Articles.wallStreet">
-        <test-method status="PASS" signature="wsa()[pri:0, instance:WallStreetJournal.Articles.wallStreet@c038203]" name="wsa" duration-ms="17523" started-at="2023-03-05T20:04:39Z" finished-at="2023-03-05T20:04:57Z">
+        <test-method status="PASS" signature="wsa()[pri:0, instance:WallStreetJournal.Articles.wallStreet@18be83e4]" name="wsa" duration-ms="17541" started-at="2023-03-06T23:02:16Z" finished-at="2023-03-06T23:02:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wsa -->
       </class> <!-- WallStreetJournal.Articles.wallStreet -->
       <class name="WallStreetJournal.Articles.WSJLifeArts">
-        <test-method status="PASS" signature="laa()[pri:0, instance:WallStreetJournal.Articles.WSJLifeArts@8bd1b6a]" name="laa" duration-ms="14381" started-at="2023-03-05T20:04:57Z" finished-at="2023-03-05T20:05:11Z">
+        <test-method status="PASS" signature="laa()[pri:0, instance:WallStreetJournal.Articles.WSJLifeArts@4b9e13df]" name="laa" duration-ms="17150" started-at="2023-03-06T23:02:51Z" finished-at="2023-03-06T23:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- laa -->
       </class> <!-- WallStreetJournal.Articles.WSJLifeArts -->
       <class name="WallStreetJournal.Articles.WSJOpinion">
-        <test-method status="PASS" signature="oa()[pri:0, instance:WallStreetJournal.Articles.WSJOpinion@18be83e4]" name="oa" duration-ms="15249" started-at="2023-03-05T20:05:11Z" finished-at="2023-03-05T20:05:26Z">
+        <test-method status="PASS" signature="oa()[pri:0, instance:WallStreetJournal.Articles.WSJOpinion@2b98378d]" name="oa" duration-ms="17116" started-at="2023-03-06T23:03:08Z" finished-at="2023-03-06T23:03:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oa -->

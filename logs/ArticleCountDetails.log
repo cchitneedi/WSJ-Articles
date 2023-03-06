@@ -1,5 +1,33 @@
 Test Executed By: cchitneedi
-Test Executed Date: 2023-03-05 20:04:39
+Test Executed Date: 2023-03-06 23:01:47
+ 
+Following are the downloaded URL's based on given InputFile
+ 
+https://www.wsj.com/print-edition/20230120/business
+ 
+https://www.wsj.com/print-edition/20230120/us
+ 
+https://www.wsj.com/print-edition/20230121/lifearts
+ 
+https://www.wsj.com/print-edition/20230120/opinion
+ 
+https://www.wsj.com/print-edition/20230120/world
+ 
+Total Count of Topics List is: 7
+Total Topics present for the current date is: 
+ 
+U.S. NEWS
+ 
+WORLD NEWS
+ 
+LIFE & ARTS
+ 
+OPINION
+ 
+BUSINESS & FINANCE
+ 
+MANSION
+ 
 WALL STREET US News Header Link: https://www.wsj.com/articles/smaller-share-of-u-s-workers-were-union-members-last-year-11674154828?mod=itp_wsj&ru=yahoo
 Total U.S. NEWS articles link Count: 10 + 1
 US NEWS Links: https://www.wsj.com/articles/top-fed-official-sees-inflation-decline-as-notable-improvement-11674152117?mod=itp_wsj&ru=yahoo
@@ -14,17 +42,19 @@ US NEWS Links: https://www.wsj.com/articles/david-crosby-acclaimed-singer-songwr
 US NEWS Links: https://www.wsj.com/articles/federal-judge-dismisses-charges-against-nypd-officer-accused-of-acting-as-chinese-agent-11674155968?mod=itp_wsj&ru=yahoo
 Downloaded Successfully 10 + 1 - U.S. NEWS URL's
  
-Life & Arts Header Link: https://www.wsj.com/articles/accused-review-fox-anthology-series-michael-chiklis-marlee-matlin-billy-porter-11674168144?mod=itp_wsj&ru=yahoo
-Total LIFE & ARTS NEWS articles link Count: 5 + 1
-Life & Arts Links: https://www.wsj.com/articles/after-love-review-joanna-scanlan-aleem-khan-british-widow-affair-islam-11674167417?mod=itp_wsj&ru=yahoo
-Life & Arts Links: https://www.wsj.com/articles/heaven-frankensteins-monster-is-drunk-reviews-59e59-theaters-irish-zoe-seaton-eugene-obrien-11674167635?mod=itp_wsj&ru=yahoo
-Life & Arts Links: https://www.wsj.com/articles/cincinnati-bengals-sam-hubbard-98-yard-td-run-11674128145?mod=itp_wsj&ru=yahoo
-Life & Arts Links: https://www.wsj.com/articles/lionel-messi-cristiano-ronaldo-saudi-arabia-riyadh-friendly-psg-11674157253?mod=itp_wsj&ru=yahoo
-Life & Arts Links: https://www.wsj.com/articles/daniel-jones-giants-nfl-playoffs-11674075544?mod=itp_wsj&ru=yahoo
-Downloaded Successfully 5 + 1 - LIFE & ARTS NEWS URL's
+World News Header Link: https://www.wsj.com/articles/russias-wagner-unit-claims-control-of-town-near-bakhmut-11674135176?mod=itp_wsj&ru=yahoo
+Total WORLD NEWS articles link Count: 6 + 1
+Total World News Links: https://www.wsj.com/articles/poland-suggests-it-would-send-german-made-tanks-to-ukraine-without-berlins-consent-11674123217?mod=itp_wsj&ru=yahoo
+Total World News Links: https://www.wsj.com/articles/russian-ruble-gyrates-as-western-sanctions-squeeze-moscows-energy-exports-11674068122?mod=itp_wsj&ru=yahoo
+Total World News Links: https://www.wsj.com/articles/sweden-convicts-two-iranian-born-brothers-of-spying-for-russia-11674143289?mod=itp_wsj&ru=yahoo
+Total World News Links: https://www.wsj.com/articles/european-support-grows-for-sanctioning-irans-revolutionary-guards-11674142863?mod=itp_wsj&ru=yahoo
+Total World News Links: https://www.wsj.com/articles/french-workers-strike-in-protest-of-macrons-plan-to-raise-retirement-age-11674124213?mod=itp_wsj&ru=yahoo
+Total World News Links: https://www.wsj.com/articles/south-korea-leader-dials-back-comments-on-developing-nuclear-weapons-11674154870?mod=itp_wsj&ru=yahoo
+Downloaded Successfully 6 + 1 - WORLD NEWS URL's
  
-Test Executed By: cchitneedi
-Test Executed Date: 2023-03-05 20:05:11
+No Life Arts Related News present for this present date
+Downloaded Successfully 0 + 1 - LIFE & ARTS NEWS URL's
+ 
 Opinion Article Header Link: https://www.wsj.com/articles/the-justice-departments-double-standards-on-classified-documents-biden-fbi-trump-raid-private-penn-11674166392?mod=itp_wsj&ru=yahoo
 Total OPINION articles link Count: 15 + 1
 Opinion Article Links: https://www.wsj.com/articles/prince-harrys-pagan-progress-spiritual-religious-spare-diana-hunting-meghan-markle-faith-millennial-11674166657?mod=itp_wsj&ru=yahoo
@@ -43,16 +73,6 @@ Opinion Article Links: https://www.wsj.com/articles/usc-bans-a-word-out-of-left-
 Opinion Article Links: https://www.wsj.com/articles/cut-taxes-and-fund-the-irs-11674078413?mod=itp_wsj&ru=yahoo
 Opinion Article Links: https://www.wsj.com/articles/navy-lieutenant-lt-alkonis-japan-prison-11674078893?mod=itp_wsj&ru=yahoo
 Downloaded Successfully 15 + 1 - OPINION NEWS URL's
- 
-World News Header Link: https://www.wsj.com/articles/russias-wagner-unit-claims-control-of-town-near-bakhmut-11674135176?mod=itp_wsj&ru=yahoo
-Total WORLD NEWS articles link Count: 6 + 1
-Total World News Links: https://www.wsj.com/articles/poland-suggests-it-would-send-german-made-tanks-to-ukraine-without-berlins-consent-11674123217?mod=itp_wsj&ru=yahoo
-Total World News Links: https://www.wsj.com/articles/russian-ruble-gyrates-as-western-sanctions-squeeze-moscows-energy-exports-11674068122?mod=itp_wsj&ru=yahoo
-Total World News Links: https://www.wsj.com/articles/sweden-convicts-two-iranian-born-brothers-of-spying-for-russia-11674143289?mod=itp_wsj&ru=yahoo
-Total World News Links: https://www.wsj.com/articles/european-support-grows-for-sanctioning-irans-revolutionary-guards-11674142863?mod=itp_wsj&ru=yahoo
-Total World News Links: https://www.wsj.com/articles/french-workers-strike-in-protest-of-macrons-plan-to-raise-retirement-age-11674124213?mod=itp_wsj&ru=yahoo
-Total World News Links: https://www.wsj.com/articles/south-korea-leader-dials-back-comments-on-developing-nuclear-weapons-11674154870?mod=itp_wsj&ru=yahoo
-Downloaded Successfully 6 + 1 - WORLD NEWS URL's
  
 Business & Finance Header Link: https://www.wsj.com/articles/big-hedge-funds-are-top-performers-for-a-change-11674094967?mod=itp_wsj&ru=yahoo
 Total BUSINESS & FINANCE NEWS articles link Count is: 21 + 1
@@ -78,17 +98,4 @@ Business & Finance Links: https://www.wsj.com/articles/chinese-healthcare-stocks
 Business & Finance Links: https://www.wsj.com/articles/liquefied-natural-gas-will-have-a-less-frenzied-2023-11674140749?mod=itp_wsj&ru=yahoo
 Business & Finance Links: https://www.wsj.com/articles/procter-gamble-is-no-bargain-11674145249?mod=itp_wsj&ru=yahoo
 Downloaded Successfully 21 + 1 - Business & Finance URL's
- 
- 
-Following are the downloaded URL's based on given InputFile
- 
-https://www.wsj.com/print-edition/20230120/business
- 
-https://www.wsj.com/print-edition/20230120/us
- 
-https://www.wsj.com/print-edition/20230120/lifearts
- 
-https://www.wsj.com/print-edition/20230120/opinion
- 
-https://www.wsj.com/print-edition/20230120/world
  

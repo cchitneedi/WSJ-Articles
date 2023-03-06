@@ -17,15 +17,13 @@ import org.testng.annotations.Test;
 import resources.base;
 import utility.Log;
 
+public class wallStreet extends base {
 
-
-public class wallStreet extends base{
-	
 	@Test
-	public static void wsa() throws InterruptedException, IOException {
+	public void wsa() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 		DOMConfigurator.configure("log4j.xml");
-		
+
 		initialization();
 		try {
 			driver.get(prop.getProperty("WSJ_USNEWS"));
@@ -36,40 +34,34 @@ public class wallStreet extends base{
 			String FirstLink = driver.findElement(By.xpath("//main[@id='main']/div[1]/div[1]/div[1]/div[2]/div/h2/a"))
 					.getAttribute("href");
 			System.out.println(FirstLink);
-			//Log.info(FirstLink);
-			Log.info("Test Executed By: "+machineName );
-			Log.info("Test Executed Date: " + currentDateTime);
+			// Log.info(FirstLink);
+
 			Log.info("WALL STREET US News Header Link: " + FirstLink);
 			List<WebElement> allArticleTitles = driver
 					.findElements(By.xpath("//div[starts-with(@class,'WSJTheme--list-item')]/div[2]/div[1]/h3/a"));
-
 			int cnl = allArticleTitles.size();
-			//System.out.println("Count of Articles Links is: " + cnl);
-			Log.info("Total U.S. NEWS articles link Count: "+cnl+" + 1");
+			Log.info("Total U.S. NEWS articles link Count: " + cnl + " + 1");
 			// Enhanced for loop
 			for (WebElement option : allArticleTitles) {
 				String namePrint = option.getAttribute("href");
-				//System.out.println("Href value of link: " + namePrint);
-				
-				Log.info("US NEWS Links: "+ namePrint);
-				//Log.info(namePrint);
-		}
-		}
-		catch(Exception e1) {
+				// System.out.println("Href value of link: " + namePrint);
+
+				Log.info("US NEWS Links: " + namePrint);
+				// Log.info(namePrint);
+			}
+		} catch (Exception e1) {
 			Log.error("No Wall Street US NEWS Related News present for this present date");
 		}
 		try {
 			List<WebElement> allWSArticleTitles = driver
 					.findElements(By.xpath("//div[starts-with(@class,'WSJTheme--list-item')]/div[2]/div[1]/h3/a"));
 			int WSin = allWSArticleTitles.size();
-			Log.info("Downloaded Successfully " + WSin +" + 1 - U.S. NEWS URL's");
+			Log.info("Downloaded Successfully " + WSin + " + 1 - U.S. NEWS URL's");
 			Log.info(" ");
-			}
-			catch(Exception e22) {
-				
-			}
-		
-		
+		} catch (Exception e22) {
+
+		}
+
 		driver.quit();
 	}
 

@@ -2,10 +2,12 @@
 <suite name="Suite1">
 	<test name="Test" preserve-order="true">
 		<classes>
+			
+			<class name="WallStreetJournal.Articles.descriptionInfo" />
 			<class name="WallStreetJournal.Articles.wallStreet" />
+			<class name="WallStreetJournal.Articles.WSWorldNews" />
 			<class name="WallStreetJournal.Articles.WSJLifeArts" />
 			<class name="WallStreetJournal.Articles.WSJOpinion" />
-			<class name="WallStreetJournal.Articles.WSWorldNews" />
 			<class name="WallStreetJournal.Articles.WSJBusinessFinance" />
 		</classes>
 	</test> <!-- Test -->

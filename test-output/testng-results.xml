@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-06T17:07:28Z" name="Default suite" finished-at="2023-03-06T17:07:45Z" duration-ms="17073">
+    <groups>
+    </groups>
+    <test started-at="2023-03-06T17:07:28Z" name="Default test" finished-at="2023-03-06T17:07:45Z" duration-ms="17073">
+      <class name="WallStreetJournal.Articles.descriptionInfo">
+        <test-method signature="configDetails()[pri:0, instance:WallStreetJournal.Articles.descriptionInfo@36a5cabc]" started-at="2023-03-06T22:37:28Z" name="configDetails" finished-at="2023-03-06T22:37:32Z" duration-ms="3761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configDetails -->
+        <test-method signature="meth()[pri:0, instance:WallStreetJournal.Articles.descriptionInfo@36a5cabc]" started-at="2023-03-06T22:37:32Z" name="meth" finished-at="2023-03-06T22:37:45Z" duration-ms="13294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+      </class> <!-- WallStreetJournal.Articles.descriptionInfo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
